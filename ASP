@@ -1,0 +1,2 @@
+cd /path/to/Active-solution-Peptides
+git push -u origin claude/beautiful-galileo-rypvps
