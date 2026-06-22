@@ -1,10 +1,27 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 const links = {
-  Products: ['BPC-157', 'TB-500', 'Epithalon', 'Semax', 'GHK-Cu', 'CJC-1295', 'Full Catalog'],
-  Research: ['Publications', 'Technical Data', 'CoA Downloads', 'MSDS Library', 'Custom Synthesis'],
-  Company: ['About Us', 'Our Team', 'Careers', 'Press', 'Partners'],
-  Support: ['FAQ', 'Shipping Policy', 'Returns', 'Contact Us', 'Order Status'],
+  Products: [
+    { label: 'BPC-157', path: '/products' },
+    { label: 'TB-500', path: '/products' },
+    { label: 'Epithalon', path: '/products' },
+    { label: 'Semax', path: '/products' },
+    { label: 'GHK-Cu', path: '/products' },
+    { label: 'View All', path: '/products' },
+  ],
+  Company: [
+    { label: 'About Us', path: '/about' },
+    { label: 'Science', path: '/science' },
+    { label: 'Affiliate Program', path: '/affiliate' },
+    { label: 'Contact', path: '/contact' },
+  ],
+  Support: [
+    { label: 'FAQ', path: '/contact' },
+    { label: 'Shipping Info', path: '/contact' },
+    { label: 'Returns', path: '/contact' },
+    { label: 'Order Status', path: '/contact' },
+  ],
 }
 
 export default function Footer() {
@@ -14,7 +31,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand">
-            <div className="footer-logo">
+            <Link className="footer-logo" to="/">
               <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="20" r="7" fill="#00d4ff"/>
                 <circle cx="19" cy="40" r="7" fill="#7c3aed"/>
@@ -25,15 +42,15 @@ export default function Footer() {
               </svg>
               <div>
                 <div className="footer-logo-name">Active Solution Peptides</div>
-                <div className="footer-logo-tag">Advanced Peptide Research</div>
+                <div className="footer-logo-tag">Premium Peptide Supplements</div>
               </div>
-            </div>
+            </Link>
             <p className="footer-desc">
-              World-class peptide research compounds for academic, pharmaceutical, and biotech applications.
-              Research-grade quality, backed by science.
+              High-purity peptide compounds for performance, recovery, and longevity.
+              Trusted by thousands of customers worldwide.
             </p>
             <div className="footer-social">
-              {['𝕏', 'in', 'G', 'R'].map((s, i) => (
+              {['𝕏', 'in', 'IG', 'YT'].map((s, i) => (
                 <a key={i} className="social-link" href="#" aria-label="Social">{s}</a>
               ))}
             </div>
@@ -45,7 +62,7 @@ export default function Footer() {
                 <div className="footer-col-title">{cat}</div>
                 <ul>
                   {items.map(item => (
-                    <li key={item}><a href="#">{item}</a></li>
+                    <li key={item.label}><Link to={item.path}>{item.label}</Link></li>
                   ))}
                 </ul>
               </div>
@@ -55,13 +72,14 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-legal">
-            <span>© 2024 Active Solution Peptides. All rights reserved.</span>
+            <span>© 2025 Active Solution Peptides. All rights reserved.</span>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
-            <a href="#">Research Use Only</a>
           </div>
-          <div className="footer-disclaimer">
-            For Research Use Only. Not for human or veterinary use.
+          <div className="footer-earn">
+            <Link to="/affiliate" className="footer-affiliate-link">
+              💰 Earn 20% Commission — Join Our Affiliate Program
+            </Link>
           </div>
         </div>
       </div>

@@ -67,8 +67,13 @@
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
-  color: #e2e8f0;
+.nav-link:hover,
+.nav-link.active {
+  color: #00d4ff;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 .nav-cta {
