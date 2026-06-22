@@ -30,8 +30,8 @@ export default function Contact() {
               {[
                 { icon: '📱', label: 'Text to Order', val: '(475) 434-0527' },
                 { icon: '📧', label: 'Email', val: 'dylan@straightjacket.com' },
-                { icon: '📍', label: 'Location', val: 'San Diego, CA 92121' },
-                { icon: '⏰', label: 'Hours', val: 'Mon–Fri, 8am–6pm PT' },
+                { icon: '📍', label: 'Location', val: 'Guilford, CT' },
+                { icon: '⏰', label: 'Hours', val: 'Mon–Fri, 9am–7pm EST' },
               ].map(d => (
                 <div className="contact-detail" key={d.label}>
                   <span className="detail-icon">{d.icon}</span>

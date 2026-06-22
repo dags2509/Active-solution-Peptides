@@ -40,7 +40,7 @@ export default function AboutPage() {
                 For years, high-quality peptides were only accessible to those with connections in research circles or the resources to pay premium prices. We changed that.
               </p>
               <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#64748b', marginBottom: '32px' }}>
-                Our direct-to-consumer model cuts out the middlemen. We source, synthesize, test, and ship — all from our facility in San Diego. That means lower prices, higher purity, and a team that actually cares about your results.
+                Our direct-to-consumer model cuts out the middlemen. We source, synthesize, test, and ship — all from our facility in Guilford, CT. That means lower prices, higher purity, and a team that actually cares about your results.
               </p>
               <Link to="/products" className="btn-primary">
                 Shop Our Products
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 { val: '2018', label: 'Founded' },
                 { val: '50,000+', label: 'Customers Served' },
                 { val: '99.9%', label: 'Avg Purity Rating' },
-                { val: 'San Diego', label: 'Headquarters' },
+                { val: 'Guilford, CT', label: 'Headquarters' },
               ].map((s, i) => (
                 <div className="mission-stat" key={i}>
                   <span className="mission-val">{s.val}</span>

@@ -33,8 +33,8 @@ export default function ContactPage() {
               {[
                 { icon: '📱', label: 'Text to Order', val: '(475) 434-0527', sub: 'All orders placed via text only' },
                 { icon: '📧', label: 'Email Us', val: 'dylan@straightjacket.com', sub: 'General questions & support' },
-                { icon: '📍', label: 'Location', val: 'San Diego, CA 92121', sub: 'Warehouse & HQ' },
-                { icon: '💬', label: 'Response Time', val: 'Within a few hours', sub: 'Mon–Fri, 9am–6pm PT' },
+                { icon: '📍', label: 'Location', val: 'Guilford, CT', sub: 'Warehouse & HQ' },
+                { icon: '💬', label: 'Response Time', val: 'Within a few hours', sub: 'Mon–Fri, 9am–7pm EST' },
               ].map((d, i) => (
                 <div className="info-card" key={i}>
                   <div className="info-icon">{d.icon}</div>
