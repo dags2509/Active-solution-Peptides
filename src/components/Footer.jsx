@@ -42,12 +42,12 @@ export default function Footer() {
               </svg>
               <div>
                 <div className="footer-logo-name">Active Solution Peptides</div>
-                <div className="footer-logo-tag">Premium Peptide Supplements</div>
+                <div className="footer-logo-tag">Research Use Only — Not For Human Consumption</div>
               </div>
             </Link>
             <p className="footer-desc">
-              High-purity peptide compounds for performance, recovery, and longevity.
-              Trusted by thousands of customers worldwide.
+              High-purity research peptides for laboratory and in-vitro use only. Not for human or veterinary consumption.
+              All compounds independently tested and supplied with Certificate of Analysis.
             </p>
             <div className="footer-social">
               {['𝕏', 'in', 'IG', 'YT'].map((s, i) => (

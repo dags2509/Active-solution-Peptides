@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 import './HomePage.css'
 
 const benefits = [
-  { icon: '⚡', title: 'Faster Recovery', desc: 'Bounce back quicker from training, injury, or surgery with compounds studied for accelerated tissue repair.' },
-  { icon: '🧬', title: 'Cellular Regeneration', desc: 'Support your body at the cellular level — targeting collagen, muscle fibers, and connective tissue.' },
-  { icon: '🧠', title: 'Cognitive Edge', desc: 'Nootropic peptides studied for focus, memory, and neuroprotection. Think sharper, perform better.' },
-  { icon: '🔥', title: 'Body Composition', desc: 'Compounds that support fat loss, lean muscle retention, and metabolic optimization.' },
-  { icon: '⏳', title: 'Longevity & Anti-Aging', desc: 'Peptides linked to telomere health, cellular aging pathways, and long-term vitality.' },
-  { icon: '😴', title: 'Sleep & Hormones', desc: 'Optimize deep sleep cycles and support healthy hormone balance from the ground up.' },
+  { icon: '⚡', title: 'Tissue Repair Research', desc: 'Compounds studied in laboratory settings for their role in accelerated tissue and tendon repair mechanisms.' },
+  { icon: '🧬', title: 'Cellular Biology', desc: 'Research into peptide signaling at the cellular level — targeting collagen synthesis, fibroblast activity, and connective tissue models.' },
+  { icon: '🧠', title: 'Neuropeptide Research', desc: 'In-vitro studies on neuropeptides for focus, memory formation, and neuroprotective pathways.' },
+  { icon: '🔥', title: 'Metabolic Studies', desc: 'Laboratory compounds used in research on metabolic pathways, fat oxidation, and body composition models.' },
+  { icon: '⏳', title: 'Longevity Research', desc: 'Peptides studied for their relationship to telomere health, cellular aging mechanisms, and lifespan extension in research models.' },
+  { icon: '😴', title: 'Endocrine Research', desc: 'Compounds used in laboratory studies of sleep cycle regulation and hormonal signaling pathways.' },
 ]
 
 export default function HomePage() {
@@ -23,11 +23,11 @@ export default function HomePage() {
 
       <section className="home-benefits">
         <div className="container">
-          <div className="section-label">Why Peptides</div>
-          <h2 className="section-title">What Can Peptides<br/><span className="gradient-text">Do For You?</span></h2>
+          <div className="section-label">Research Applications</div>
+          <h2 className="section-title">What Are Peptides<br/><span className="gradient-text">Used to Study?</span></h2>
           <p className="section-sub">
-            Peptides are short chains of amino acids that signal your body to perform specific functions —
-            recovery, growth, cognition, and more. Used by elite athletes, biohackers, and longevity enthusiasts worldwide.
+            Peptides are short chains of amino acids used in laboratory research to study biological signaling pathways.
+            All compounds are supplied strictly for in-vitro and research use only — not for human consumption.
           </p>
           <div className="benefits-grid">
             {benefits.map((b, i) => (
@@ -40,10 +40,10 @@ export default function HomePage() {
           </div>
           <div className="benefits-cta">
             <Link to="/products" className="btn-primary">
-              Browse All Products
+              Browse Research Catalog
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </Link>
-            <Link to="/science" className="btn-secondary">See the Science</Link>
+            <Link to="/science" className="btn-secondary">View the Science</Link>
           </div>
         </div>
       </section>
@@ -52,14 +52,14 @@ export default function HomePage() {
 
       <section className="home-featured">
         <div className="container">
-          <div className="section-label">Top Sellers</div>
-          <h2 className="section-title">Most Popular<br/><span className="gradient-text">Compounds</span></h2>
+          <div className="section-label">Most Researched</div>
+          <h2 className="section-title">Highly Studied<br/><span className="gradient-text">Research Compounds</span></h2>
           <div className="featured-grid">
             {[
-              { name: 'BPC-157', tag: 'Recovery', desc: 'The gold standard for healing and gut repair. One of the most studied peptides for injury recovery.', color: '#00d4ff', badge: '🏆 #1 Best Seller' },
-              { name: 'TB-500', tag: 'Recovery', desc: 'Thymosin Beta-4 fragment — trusted by athletes for rapid tissue regeneration and reduced inflammation.', color: '#7c3aed', badge: '⚡ Fast Acting' },
-              { name: 'Epithalon', tag: 'Longevity', desc: 'Telomerase activator linked to cellular lifespan, sleep quality, and anti-aging mechanisms.', color: '#10b981', badge: '🔬 Editor\'s Pick' },
-              { name: 'Semax', tag: 'Cognitive', desc: 'Neuropeptide used for focus, memory, and BDNF upregulation. Popular in biohacker communities.', color: '#f59e0b', badge: '🧠 Nootropic' },
+              { name: 'BPC-157', tag: 'Tissue Research', desc: 'Widely studied pentadecapeptide. Research focuses on GI and musculoskeletal tissue repair models. For research use only.', color: '#00d4ff', badge: '🔬 Most Researched' },
+              { name: 'TB-500', tag: 'Regeneration Research', desc: 'Synthetic Thymosin Beta-4 fragment studied for actin regulation and tissue regeneration in laboratory models. Not for human use.', color: '#7c3aed', badge: '⚡ High Demand' },
+              { name: 'Epithalon', tag: 'Longevity Research', desc: 'Tetrapeptide studied for telomerase activation and circadian rhythm regulation in in-vitro and animal research settings.', color: '#10b981', badge: '🧬 Research Grade' },
+              { name: 'Semax', tag: 'Neuropeptide Research', desc: 'Heptapeptide studied for BDNF upregulation and neuroprotective effects in laboratory models. Research purposes only.', color: '#f59e0b', badge: '🧠 Neuropeptide' },
             ].map((p, i) => (
               <div className="featured-card" key={i} style={{ '--fc': p.color }}>
                 <div className="featured-badge">{p.badge}</div>
@@ -83,7 +83,7 @@ export default function HomePage() {
             <div className="affiliate-banner-content">
               <div className="affiliate-banner-label">Affiliate Program</div>
               <h2>Earn 20% on Every Sale<br/><span className="gradient-text">You Refer</span></h2>
-              <p>Join hundreds of content creators, coaches, and health influencers earning passive income sharing products they love.</p>
+              <p>Join our affiliate program and earn commission sharing research-grade peptide compounds with your audience of researchers, lab professionals, and science enthusiasts.</p>
               <Link to="/affiliate" className="btn-primary">
                 Join Free Today
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>

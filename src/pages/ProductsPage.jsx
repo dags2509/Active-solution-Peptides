@@ -8,65 +8,65 @@ const products = [
   {
     id: 1, name: 'BPC-157', fullName: 'Body Protection Compound-157',
     category: 'Recovery', purity: '99.8%', sizes: ['5mg', '10mg', '20mg'],
-    price: '$49', color: '#00d4ff', badge: '🏆 Best Seller',
-    desc: 'The most popular healing peptide. Studied extensively for gut repair, tendon healing, and full-body recovery. A staple compound for athletes and biohackers.',
-    tags: ['Gut Health', 'Tendon Repair', 'Anti-inflammatory', 'Recovery'],
+    price: '$49', color: '#00d4ff', badge: '🔬 Research Grade',
+    desc: 'Pentadecapeptide studied in laboratory models for GI mucosal protection, tendon healing mechanisms, and anti-inflammatory signaling. For research use only. Not for human consumption.',
+    tags: ['GI Research', 'Tendon Models', 'Inflammation Study', 'In-Vitro'],
   },
   {
     id: 2, name: 'TB-500', fullName: 'Thymosin Beta-4 Fragment',
     category: 'Recovery', purity: '99.5%', sizes: ['5mg', '10mg'],
-    price: '$59', color: '#7c3aed', badge: '⚡ Top Rated',
-    desc: 'Synthetic thymosin beta-4 — the peptide found naturally in nearly every cell. Known for accelerating wound healing, reducing inflammation, and promoting muscle repair.',
-    tags: ['Wound Healing', 'Muscle Repair', 'Inflammation', 'Flexibility'],
+    price: '$59', color: '#7c3aed', badge: '⚡ Research Grade',
+    desc: 'Synthetic Thymosin Beta-4 fragment studied for actin-binding properties and tissue regeneration in laboratory models. Not intended for human or veterinary use.',
+    tags: ['Actin Binding', 'Tissue Models', 'Inflammation', 'In-Vitro'],
   },
   {
     id: 3, name: 'Epithalon', fullName: 'Epithalamin Tetrapeptide',
     category: 'Longevity', purity: '99.9%', sizes: ['10mg', '50mg'],
-    price: '$69', color: '#10b981', badge: '⏳ Longevity',
-    desc: 'A tetrapeptide that activates telomerase — the enzyme that maintains telomere length. Associated with improved sleep, anti-aging effects, and life extension research.',
-    tags: ['Telomere Health', 'Anti-Aging', 'Sleep Quality', 'Longevity'],
+    price: '$69', color: '#10b981', badge: '🧬 Research Grade',
+    desc: 'Tetrapeptide studied for telomerase activation and pineal gland regulation in research models. Used in longevity and anti-aging research settings. Not for human use.',
+    tags: ['Telomerase Study', 'Pineal Research', 'Aging Models', 'In-Vitro'],
   },
   {
     id: 4, name: 'Semax', fullName: 'ACTH(4-7) Pro-Gly-Pro',
     category: 'Cognitive', purity: '99.7%', sizes: ['30mg', '60mg'],
-    price: '$54', color: '#f59e0b', badge: '🧠 Nootropic',
-    desc: 'A neuropeptide originally developed in Russia, now popular in nootropic communities. Increases BDNF, supports memory formation, and provides mental clarity without stimulant effects.',
-    tags: ['Focus', 'Memory', 'BDNF', 'Neuroprotection'],
+    price: '$54', color: '#f59e0b', badge: '🧠 Research Grade',
+    desc: 'Heptapeptide studied for BDNF upregulation and neuroprotective mechanisms in laboratory research. Used in neuropeptide and cognitive biology studies. Not for human consumption.',
+    tags: ['BDNF Research', 'Neuroprotection', 'Cognitive Models', 'In-Vitro'],
   },
   {
     id: 5, name: 'GHK-Cu', fullName: 'Copper Peptide Complex',
     category: 'Longevity', purity: '99.6%', sizes: ['50mg', '200mg'],
-    price: '$44', color: '#ef4444', badge: '✨ Skin & Repair',
-    desc: 'A naturally occurring copper-binding peptide with powerful regenerative properties. Studied for collagen production, skin renewal, and wound healing at the cellular level.',
-    tags: ['Collagen', 'Skin Health', 'Hair Growth', 'Wound Repair'],
+    price: '$44', color: '#ef4444', badge: '🔬 Research Grade',
+    desc: 'Copper-binding tripeptide studied for collagen synthesis stimulation and wound healing mechanisms in cell culture and laboratory models. For research use only.',
+    tags: ['Collagen Synthesis', 'Cell Culture', 'Wound Models', 'In-Vitro'],
   },
   {
     id: 6, name: 'CJC-1295', fullName: 'Growth Hormone Releasing Factor',
     category: 'Performance', purity: '99.4%', sizes: ['2mg', '5mg'],
-    price: '$64', color: '#00d4ff', badge: '💪 Performance',
-    desc: 'A modified version of GHRH that significantly extends the half-life of growth hormone pulses. Used by athletes for muscle gain, fat loss, and improved recovery.',
-    tags: ['GH Pulse', 'Muscle Growth', 'Fat Loss', 'Recovery'],
+    price: '$64', color: '#00d4ff', badge: '⚗️ Research Grade',
+    desc: 'Modified GHRH analogue studied for extended GH pulse half-life in endocrine research models. Used in growth hormone signaling pathway research. Not for human use.',
+    tags: ['GHRH Research', 'Endocrine Models', 'GH Signaling', 'In-Vitro'],
   },
   {
     id: 7, name: 'Ipamorelin', fullName: 'Growth Hormone Secretagogue',
     category: 'Performance', purity: '99.3%', sizes: ['2mg', '5mg'],
-    price: '$52', color: '#7c3aed', badge: '🔥 Stack Pick',
-    desc: 'A selective GH secretagogue with minimal side effects. Often stacked with CJC-1295 for synergistic growth hormone release. Clean compound with no cortisol spike.',
-    tags: ['GH Release', 'Clean Energy', 'Sleep Quality', 'Lean Muscle'],
+    price: '$52', color: '#7c3aed', badge: '⚗️ Research Grade',
+    desc: 'Selective GH secretagogue studied for ghrelin receptor activity with high selectivity in laboratory settings. Used in endocrine and metabolic research. Not for human consumption.',
+    tags: ['Ghrelin Receptor', 'GH Secretagogue', 'Metabolic Research', 'In-Vitro'],
   },
   {
     id: 8, name: 'PT-141', fullName: 'Bremelanotide',
     category: 'Hormones', purity: '99.2%', sizes: ['10mg', '20mg'],
-    price: '$74', color: '#10b981', badge: '❤️ Vitality',
-    desc: 'A melanocortin receptor agonist studied for its effects on libido, sexual function, and desire in both men and women. Works centrally through the nervous system.',
-    tags: ['Libido', 'Sexual Health', 'Hormone Support', 'Vitality'],
+    price: '$74', color: '#10b981', badge: '🔬 Research Grade',
+    desc: 'Melanocortin receptor agonist studied for central nervous system signaling pathways in research models. Used in melanocortin system research. For research purposes only.',
+    tags: ['Melanocortin', 'CNS Research', 'Receptor Binding', 'In-Vitro'],
   },
   {
     id: 9, name: 'Selank', fullName: 'Heptapeptide Anxiolytic',
     category: 'Cognitive', purity: '99.5%', sizes: ['5mg', '15mg'],
-    price: '$48', color: '#f59e0b', badge: '😌 Calm & Focus',
-    desc: 'A synthetic analogue of tuftsin with anxiolytic and nootropic properties. Reduces stress without sedation, improves memory, and supports immune function.',
-    tags: ['Anxiety Relief', 'Memory', 'Mood', 'Immune Support'],
+    price: '$48', color: '#f59e0b', badge: '🧠 Research Grade',
+    desc: 'Synthetic tuftsin analogue studied for anxiolytic mechanisms and immune modulation in laboratory research models. Used in anxiety pathway and cognitive biology studies. Not for human use.',
+    tags: ['Anxiolytic Models', 'Immune Research', 'Cognitive Biology', 'In-Vitro'],
   },
 ]
 
@@ -80,11 +80,11 @@ export default function ProductsPage() {
     <div className="products-page">
       <div className="page-hero">
         <div className="container">
-          <div className="section-label">Our Catalog</div>
-          <h1 className="page-title">Premium<br/><span className="gradient-text">Peptide Compounds</span></h1>
+          <div className="section-label">Research Catalog</div>
+          <h1 className="page-title">Research-Grade<br/><span className="gradient-text">Peptide Compounds</span></h1>
           <p className="page-sub">
-            High-purity peptides backed by extensive research. Each batch tested to ≥99% purity.
-            Trusted by athletes, biohackers, and wellness enthusiasts worldwide.
+            High-purity peptides for laboratory and in-vitro research purposes only. Each batch independently tested to ≥99% purity.
+            Not for human or veterinary use. For research purposes only.
           </p>
         </div>
       </div>
@@ -150,7 +150,7 @@ export default function ProductsPage() {
         </div>
 
         <div className="products-bottom">
-          <p>Need help choosing the right compound?</p>
+          <p>All compounds are for research use only. Not for human or veterinary consumption.</p>
           <Link to="/contact" className="btn-primary">
             Talk to Our Team
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>

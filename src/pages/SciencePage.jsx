@@ -44,11 +44,11 @@ const compounds = [
 ]
 
 const faq = [
-  { q: 'Are peptides safe?', a: 'Peptides are generally well-tolerated. They are naturally occurring amino acid chains that your body already produces. That said, quality, dosing, and individual biology all matter. Start with lower doses and pay attention to how your body responds.' },
-  { q: 'What\'s the difference between peptides and steroids?', a: 'Peptides are short chains of amino acids — they work by signaling your body\'s own processes. Steroids directly mimic or replace hormones. Peptides typically have fewer side effects and work through more targeted pathways.' },
-  { q: 'How do I choose the right peptide?', a: 'Your goals determine which compound is most relevant. Recovery-focused? BPC-157 or TB-500. Longevity? Epithalon or GHK-Cu. Cognitive performance? Semax or Selank. Our team is happy to help guide your decision.' },
-  { q: 'What purity levels do you carry?', a: 'All products are ≥99% purity, independently verified. We use HPLC (High-Performance Liquid Chromatography) and mass spectrometry testing on every batch.' },
-  { q: 'Do you offer lab reports?', a: 'Yes — every product includes a Certificate of Analysis (CoA) with the lot number, purity percentage, and testing methodology. Available on request or included with your order.' },
+  { q: 'Are these compounds for human use?', a: 'No. All compounds sold by Active Solution Peptides are strictly for laboratory and in-vitro research purposes only. They are not intended for human or veterinary consumption, diagnosis, treatment, or prevention of any condition.' },
+  { q: 'What is the difference between peptides and steroids in research?', a: 'Peptides are short chains of amino acids that act as signaling molecules in biological research models. Steroids are lipid-based hormones with different mechanisms. Peptides are studied for their receptor selectivity in laboratory settings.' },
+  { q: 'How do researchers select the right compound?', a: 'Compound selection depends on the biological pathway being studied. BPC-157 and TB-500 are used in tissue repair research. Epithalon and GHK-Cu are used in longevity models. Semax and Selank are used in neuropeptide research.' },
+  { q: 'What purity standards do your compounds meet?', a: 'All research compounds are ≥99% purity, independently verified via HPLC (High-Performance Liquid Chromatography) and mass spectrometry testing on every batch.' },
+  { q: 'Do you provide lab documentation?', a: 'Yes — every compound includes a Certificate of Analysis (CoA) with the lot number, purity percentage, and testing methodology. Available on request or included with your order.' },
 ]
 
 export default function SciencePage() {
@@ -56,11 +56,11 @@ export default function SciencePage() {
     <div className="science-page">
       <div className="page-hero">
         <div className="container">
-          <div className="section-label">The Science</div>
-          <h1 className="page-title">Understanding<br/><span className="gradient-text">Peptide Biology</span></h1>
+          <div className="section-label">Research Information</div>
+          <h1 className="page-title">The Science Behind<br/><span className="gradient-text">Peptide Research</span></h1>
           <p className="page-sub">
-            Peptides aren't magic — they're molecular signals your body already uses. Here's the science
-            behind the compounds we carry and why they've garnered so much attention from researchers and biohackers alike.
+            Educational overview of peptide biology for research and informational purposes only. All compounds sold by Active Solution Peptides
+            are strictly for laboratory and in-vitro research use. Not for human or veterinary consumption.
           </p>
         </div>
       </div>
@@ -71,17 +71,17 @@ export default function SciencePage() {
             <div className="intro-card">
               <div className="intro-icon">🧬</div>
               <h3>What Are Peptides?</h3>
-              <p>Peptides are short chains of 2–50 amino acids linked by peptide bonds. They are smaller than proteins but function as powerful signaling molecules — telling your cells what to do and when to do it.</p>
+              <p>Peptides are short chains of 2–50 amino acids linked by peptide bonds. Smaller than proteins, they are studied as biological signaling molecules in laboratory and in-vitro research settings. Not for human use.</p>
             </div>
             <div className="intro-card">
               <div className="intro-icon">⚙️</div>
-              <h3>How Do They Work?</h3>
-              <p>Peptides bind to specific receptors on cell surfaces and trigger downstream biological processes. Depending on the peptide, this could mean stimulating repair, modulating inflammation, or activating growth pathways.</p>
+              <h3>How Are They Studied?</h3>
+              <p>In research models, peptides bind to specific receptors and trigger measurable downstream biological processes — making them valuable tools for studying repair mechanisms, inflammation, and growth signaling pathways.</p>
             </div>
             <div className="intro-card">
               <div className="intro-icon">🎯</div>
-              <h3>Why Are They Targeted?</h3>
-              <p>Unlike broad-spectrum hormones or drugs, peptides are highly selective. Each one has a specific receptor affinity, meaning you can target recovery, cognition, or longevity independently with minimal systemic interference.</p>
+              <h3>Why Research-Grade Matters</h3>
+              <p>High purity is critical in research settings. Our compounds are independently verified to ≥99% purity via HPLC and mass spectrometry, ensuring reliable, reproducible results in laboratory studies.</p>
             </div>
           </div>
         </section>

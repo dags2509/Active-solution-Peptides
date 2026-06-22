@@ -29,12 +29,12 @@ function CountUp({ end, suffix = '', duration = 2000 }) {
 }
 
 const stats = [
-  { val: 500, suffix: '+', label: 'Peptide Compounds', sub: 'In active catalog' },
-  { val: 99, suffix: '.9%', label: 'Average Purity', sub: 'HPLC verified' },
+  { val: 99, suffix: '.9%', label: 'Average Purity', sub: 'HPLC & mass spec verified' },
   { val: 15, suffix: '+', label: 'Years Experience', sub: 'In peptide synthesis' },
-  { val: 50, suffix: '+', label: 'Research Partners', sub: 'Globally trusted' },
-  { val: 2500, suffix: '+', label: 'Publications', sub: 'Citing our compounds' },
+  { val: 100, suffix: '%', label: 'Research Grade', sub: 'Not for human use' },
   { val: 48, suffix: 'h', label: 'Avg Turnaround', sub: 'Catalog orders' },
+  { val: 3, suffix: 'rd Party', label: 'Tested', sub: 'Independent lab verification' },
+  { val: 30, suffix: '+', label: 'Compounds Available', sub: 'In active research catalog' },
 ]
 
 export default function Stats() {

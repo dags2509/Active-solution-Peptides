@@ -9,10 +9,10 @@ const team = [
 ]
 
 const values = [
-  { icon: '🔬', title: 'Purity First', desc: 'We will never compromise on quality. Every batch is independently tested to ≥99% purity before it reaches you.' },
-  { icon: '🤝', title: 'Transparency', desc: 'Lab reports available for every product. No secrets. No proprietary blends. Just clean, verified compounds.' },
-  { icon: '📦', title: 'Speed & Reliability', desc: 'Same-day shipping on orders before 2pm. Discreet packaging. Real tracking. Your order, on time.' },
-  { icon: '💬', title: 'Real Support', desc: "Our team actually knows peptides. Ask us anything — we'll give you honest, knowledgeable answers." },
+  { icon: '🔬', title: 'Research-Grade Purity', desc: 'Every batch independently tested to ≥99% purity via HPLC and mass spectrometry. Certificate of Analysis included with every order.' },
+  { icon: '🤝', title: 'Full Transparency', desc: 'Lab reports available for every compound. No undisclosed additives. Just clean, verified research-grade peptides.' },
+  { icon: '📦', title: 'Reliable Fulfillment', desc: 'Fast shipping on catalog orders. Discreet packaging. Real tracking. All compounds shipped from Guilford, CT.' },
+  { icon: '💬', title: 'Research Support', desc: "Our team understands peptide chemistry. Contact us with compound questions and we'll provide knowledgeable, research-focused guidance." },
 ]
 
 export default function AboutPage() {
@@ -21,10 +21,10 @@ export default function AboutPage() {
       <div className="page-hero">
         <div className="container">
           <div className="section-label">Our Story</div>
-          <h1 className="page-title">Built by Enthusiasts<br/><span className="gradient-text">For Enthusiasts</span></h1>
+          <h1 className="page-title">Built for Researchers<br/><span className="gradient-text">By Researchers</span></h1>
           <p className="page-sub">
-            Active Solution Peptides was founded in 2018 by a team of athletes, researchers, and biohackers
-            who were tired of unreliable suppliers and underdosed products. We built the company we wished existed.
+            Active Solution Peptides was founded to supply the research community with consistently pure, independently verified peptide compounds.
+            All products are for laboratory and research use only — not for human or veterinary consumption.
           </p>
         </div>
       </div>
@@ -35,12 +35,12 @@ export default function AboutPage() {
           <div className="mission-grid">
             <div>
               <div className="section-label">Our Mission</div>
-              <h2 className="section-title" style={{ marginBottom: '20px' }}>Democratize Access to<br/><span className="gradient-text">Premium Peptides</span></h2>
+              <h2 className="section-title" style={{ marginBottom: '20px' }}>Supplying the Research<br/><span className="gradient-text">Community Since 2018</span></h2>
               <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#64748b', marginBottom: '20px' }}>
-                For years, high-quality peptides were only accessible to those with connections in research circles or the resources to pay premium prices. We changed that.
+                Active Solution Peptides exists to provide researchers, laboratory professionals, and the scientific community with reliable, high-purity peptide compounds for in-vitro and laboratory research purposes.
               </p>
               <p style={{ fontSize: '16px', lineHeight: '1.8', color: '#64748b', marginBottom: '32px' }}>
-                Our direct-to-consumer model cuts out the middlemen. We source, synthesize, test, and ship — all from our facility in Guilford, CT. That means lower prices, higher purity, and a team that actually cares about your results.
+                Every compound is independently tested, documented with a Certificate of Analysis, and shipped from our facility in Guilford, CT. All products are strictly for research use only — not for human or veterinary consumption.
               </p>
               <Link to="/products" className="btn-primary">
                 Shop Our Products

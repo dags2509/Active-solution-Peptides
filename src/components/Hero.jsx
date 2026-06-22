@@ -162,36 +162,35 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-badge">
           <span className="badge-dot" />
-          Advanced Peptide Research & Development
+          Research Use Only — Not For Human Consumption
         </div>
 
         <h1 className="hero-title">
-          Engineering the<br />
-          <span className="gradient-text">Future of Biology</span>
+          Research-Grade<br />
+          <span className="gradient-text">Peptide Compounds</span>
         </h1>
 
         <p className="hero-subtitle">
-          Precision-engineered peptides for cutting-edge research. From bioactive compounds
-          to research-grade APIs — we deliver molecular solutions that push the boundaries
-          of scientific discovery.
+          High-purity peptides supplied strictly for laboratory and in-vitro research purposes.
+          Not intended for human or veterinary use. All compounds are for scientific research only.
         </p>
 
         <div className="hero-actions">
           <button className="btn-primary" onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}>
-            Explore Products
+            View Research Catalog
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </button>
           <button className="btn-secondary" onClick={() => document.getElementById('research')?.scrollIntoView({ behavior: 'smooth' })}>
-            Our Research
+            Learn the Science
           </button>
         </div>
 
         <div className="hero-metrics">
-          <div className="metric"><span className="metric-val">500+</span><span className="metric-label">Compounds</span></div>
-          <div className="metric-divider"/>
           <div className="metric"><span className="metric-val">99.9%</span><span className="metric-label">Purity Grade</span></div>
           <div className="metric-divider"/>
-          <div className="metric"><span className="metric-val">50+</span><span className="metric-label">Research Partners</span></div>
+          <div className="metric"><span className="metric-val">3rd Party</span><span className="metric-label">Lab Tested</span></div>
+          <div className="metric-divider"/>
+          <div className="metric"><span className="metric-val">USA</span><span className="metric-label">Manufactured</span></div>
         </div>
       </div>
 

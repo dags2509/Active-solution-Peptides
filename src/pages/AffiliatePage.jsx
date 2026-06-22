@@ -16,12 +16,12 @@ const tiers = [
 ]
 
 const niches = [
-  { icon: '🏋️', label: 'Fitness & Bodybuilding' },
-  { icon: '🧘', label: 'Biohacking & Longevity' },
+  { icon: '🔬', label: 'Research Communities' },
+  { icon: '🧬', label: 'Science Educators' },
   { icon: '🎙️', label: 'Podcast & YouTube' },
-  { icon: '📸', label: 'Health Influencers' },
-  { icon: '🩺', label: 'Wellness Coaches' },
-  { icon: '📝', label: 'Bloggers & Writers' },
+  { icon: '📸', label: 'Science Content Creators' },
+  { icon: '💻', label: 'Lab & Research Bloggers' },
+  { icon: '📝', label: 'Newsletter Writers' },
 ]
 
 export default function AffiliatePage() {
@@ -89,7 +89,7 @@ export default function AffiliatePage() {
             ))}
           </div>
           <p className="niche-note">
-            Whether you have 500 followers or 500,000 — if your audience cares about health, performance, or longevity, there's money to be made. Our average affiliate earns <strong>$340/month</strong>. Our top affiliates earn over <strong>$8,000/month</strong>.
+            Whether you have 500 followers or 500,000 — if your audience is interested in peptide research, laboratory science, or biology, there is real earning potential. Our average affiliate earns <strong>$340/month</strong>. Our top affiliates earn over <strong>$8,000/month</strong>.
           </p>
         </section>
 
