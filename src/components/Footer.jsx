@@ -70,6 +70,10 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="footer-order-note">
+          📱 <strong>To place an order:</strong> Text (475) 434-0527 with the product name, size, and shipping address. Email: dylan@straightjacket.com
+        </div>
+
         <div className="footer-bottom">
           <div className="footer-legal">
             <span>© 2025 Active Solution Peptides. All rights reserved.</span>

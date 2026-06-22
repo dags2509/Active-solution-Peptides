@@ -22,14 +22,19 @@ export default function ContactPage() {
       </div>
 
       <div className="container">
+        <div className="order-disclaimer">
+          <span className="disclaimer-icon">📱</span>
+          <strong>All orders must be placed via text message.</strong> Text us at (475) 434-0527 with the product name, size, and your shipping address to place your order.
+        </div>
+
         <div className="contact-layout">
           <div className="contact-info-col">
             <div className="info-cards">
               {[
-                { icon: '📧', label: 'Email Us', val: 'support@activesolutionpeptides.com', sub: 'Typically respond within 2–4 hours' },
-                { icon: '💬', label: 'Live Chat', val: 'Available on site', sub: 'Mon–Fri, 9am–6pm PT' },
+                { icon: '📱', label: 'Text to Order', val: '(475) 434-0527', sub: 'All orders placed via text only' },
+                { icon: '📧', label: 'Email Us', val: 'dylan@straightjacket.com', sub: 'General questions & support' },
                 { icon: '📍', label: 'Location', val: 'San Diego, CA 92121', sub: 'Warehouse & HQ' },
-                { icon: '📦', label: 'Order Support', val: 'orders@activesolutionpeptides.com', sub: 'Shipping, tracking, returns' },
+                { icon: '💬', label: 'Response Time', val: 'Within a few hours', sub: 'Mon–Fri, 9am–6pm PT' },
               ].map((d, i) => (
                 <div className="info-card" key={i}>
                   <div className="info-icon">{d.icon}</div>

@@ -28,8 +28,8 @@ export default function Contact() {
 
             <div className="contact-details">
               {[
-                { icon: '📧', label: 'Email', val: 'research@activesolutionpeptides.com' },
-                { icon: '📞', label: 'Phone', val: '+1 (800) 555-PEPT' },
+                { icon: '📱', label: 'Text to Order', val: '(475) 434-0527' },
+                { icon: '📧', label: 'Email', val: 'dylan@straightjacket.com' },
                 { icon: '📍', label: 'Location', val: 'San Diego, CA 92121' },
                 { icon: '⏰', label: 'Hours', val: 'Mon–Fri, 8am–6pm PT' },
               ].map(d => (

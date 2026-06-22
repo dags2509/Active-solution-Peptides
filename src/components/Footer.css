@@ -143,6 +143,19 @@
   text-decoration: none;
 }
 
+.footer-order-note {
+  background: rgba(0,212,255,0.05);
+  border: 1px solid rgba(0,212,255,0.15);
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.footer-order-note strong { color: #00d4ff; }
+
 .footer-affiliate-link {
   font-size: 13px;
   font-weight: 600;

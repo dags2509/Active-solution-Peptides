@@ -1,5 +1,23 @@
 .contact-page { padding-bottom: 120px; }
 
+.order-disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: rgba(0,212,255,0.06);
+  border: 1px solid rgba(0,212,255,0.25);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #94a3b8;
+}
+
+.order-disclaimer strong { color: #00d4ff; }
+
+.disclaimer-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
