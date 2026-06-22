@@ -64,7 +64,7 @@ export default function Contact() {
                 <div className="form-row">
                   <div className="form-group">
                     <label>Full Name *</label>
-                    <input name="name" value={form.name} onChange={handleChange} placeholder="Dr. Jane Smith" required />
+                    <input name="name" value={form.name} onChange={handleChange} placeholder="Your name" required />
                   </div>
                   <div className="form-group">
                     <label>Email *</label>

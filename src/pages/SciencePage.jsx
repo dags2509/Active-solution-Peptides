@@ -44,7 +44,7 @@ const compounds = [
 ]
 
 const faq = [
-  { q: 'Are peptides safe?', a: 'Peptides are generally well-tolerated. They are naturally occurring amino acid chains that your body already produces. That said, quality, dosing, and individual biology all matter. Always consult a healthcare professional before use.' },
+  { q: 'Are peptides safe?', a: 'Peptides are generally well-tolerated. They are naturally occurring amino acid chains that your body already produces. That said, quality, dosing, and individual biology all matter. Start with lower doses and pay attention to how your body responds.' },
   { q: 'What\'s the difference between peptides and steroids?', a: 'Peptides are short chains of amino acids — they work by signaling your body\'s own processes. Steroids directly mimic or replace hormones. Peptides typically have fewer side effects and work through more targeted pathways.' },
   { q: 'How do I choose the right peptide?', a: 'Your goals determine which compound is most relevant. Recovery-focused? BPC-157 or TB-500. Longevity? Epithalon or GHK-Cu. Cognitive performance? Semax or Selank. Our team is happy to help guide your decision.' },
   { q: 'What purity levels do you carry?', a: 'All products are ≥99% purity, independently verified. We use HPLC (High-Performance Liquid Chromatography) and mass spectrometry testing on every batch.' },

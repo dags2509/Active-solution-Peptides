@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import './AboutPage.css'
 
 const team = [
-  { name: 'Dr. Marcus Webb', role: 'Founder & CEO', bg: '#00d4ff', initials: 'MW', bio: '15+ years in peptide chemistry. Former research lead at a top biotech firm. Founded ASP to make premium compounds accessible.' },
-  { name: 'Sarah Lim, MS', role: 'Head of Quality Control', bg: '#7c3aed', initials: 'SL', bio: 'Biochemistry graduate from UC San Diego. Oversees all testing protocols and batch certification.' },
+  { name: 'Marcus Webb', role: 'Founder & CEO', bg: '#00d4ff', initials: 'MW', bio: '15+ years in peptide chemistry. Former research lead at a top biotech firm. Founded ASP to make premium compounds accessible.' },
+  { name: 'Sarah Lim', role: 'Head of Quality Control', bg: '#7c3aed', initials: 'SL', bio: 'Biochemistry graduate from UC San Diego. Oversees all testing protocols and batch certification.' },
   { name: 'Jake Torres', role: 'Head of Customer Success', bg: '#10b981', initials: 'JT', bio: 'Former competitive bodybuilder and peptide protocol advisor. Helps customers find the right compounds for their goals.' },
-  { name: 'Dr. Priya Nair', role: 'Scientific Advisor', bg: '#f59e0b', initials: 'PN', bio: 'PhD in Molecular Biology. Advises on compound selection, research updates, and safety standards.' },
+  { name: 'Priya Nair', role: 'Scientific Advisor', bg: '#f59e0b', initials: 'PN', bio: 'Background in Molecular Biology. Advises on compound selection, research updates, and safety standards.' },
 ]
 
 const values = [

@@ -3,35 +3,35 @@ import './Testimonials.css'
 
 const testimonials = [
   {
-    name: 'Dr. Sarah Chen',
-    role: 'Principal Investigator, Stanford University',
-    avatar: 'SC',
+    name: 'Ryan M.',
+    role: 'Competitive CrossFit Athlete',
+    avatar: 'RM',
     color: '#00d4ff',
-    quote: 'Active Solution Peptides has been our go-to supplier for over 5 years. The purity and consistency of their compounds is unmatched — critical for our receptor binding studies. Their customer support team understands the science.',
+    quote: 'BPC-157 completely changed my recovery. I had a nagging shoulder injury for months — within 3 weeks of running a protocol I was back to full training. The quality is clearly top tier.',
     rating: 5,
   },
   {
-    name: 'Prof. Michael Torres',
-    role: 'Director of Biochemistry, MIT',
-    avatar: 'MT',
+    name: 'Jessica T.',
+    role: 'Biohacker & Podcast Host',
+    avatar: 'JT',
     color: '#7c3aed',
-    quote: 'We ordered custom cyclic peptides for our enzyme inhibition research. Not only did they nail the synthesis on the first attempt, but the analytical data provided was comprehensive and publication-ready.',
+    quote: 'I have tried peptides from five different suppliers. ASP is in a different league — the purity certificates are legit, the shipping is fast, and the results speak for themselves. Semax is my daily stack now.',
     rating: 5,
   },
   {
-    name: 'Dr. Emma Nakamura',
-    role: 'Senior Research Scientist, Pfizer',
-    avatar: 'EN',
+    name: 'Marcus L.',
+    role: 'Personal Trainer & Coach',
+    avatar: 'ML',
     color: '#10b981',
-    quote: 'As a pharmaceutical researcher, quality documentation is non-negotiable. ASP provides CoAs, HPLC traces, and mass spec data with every order. Their GMP-compliant facility gives us confidence for our pre-clinical work.',
+    quote: 'I recommend ASP to all my serious clients. The TB-500 and BPC-157 stack has become a go-to for athletes coming back from injuries. Consistent quality every single order.',
     rating: 5,
   },
   {
-    name: 'Dr. James Whitfield',
-    role: 'Neuroscience Lab Director, Harvard',
-    avatar: 'JW',
+    name: 'Dana K.',
+    role: 'Longevity Enthusiast',
+    avatar: 'DK',
     color: '#f59e0b',
-    quote: 'The turnaround time for custom synthesis orders is remarkable. We received our stapled peptides within 3 weeks with full characterization. This has significantly accelerated our research timeline.',
+    quote: 'Been running Epithalon cycles for two years now. Sleep is noticeably better, energy is more stable, and the team at ASP actually knows what they are talking about when you reach out.',
     rating: 5,
   },
 ]
@@ -42,8 +42,8 @@ export default function Testimonials() {
   return (
     <section className="testimonials">
       <div className="container">
-        <div className="section-label">Trusted By Researchers</div>
-        <h2 className="section-title">What Scientists<br/><span className="gradient-text">Are Saying</span></h2>
+        <div className="section-label">Customer Reviews</div>
+        <h2 className="section-title">What Our Customers<br/><span className="gradient-text">Are Saying</span></h2>
 
         <div className="testimonials-layout">
           <div className="testimonial-main">
@@ -80,7 +80,7 @@ export default function Testimonials() {
         </div>
 
         <div className="trust-logos">
-          {['Stanford', 'MIT', 'Harvard', 'Pfizer', 'NIH', 'Johns Hopkins'].map(name => (
+          {['50,000+ Customers', 'USA Made', '3rd Party Tested', 'Fast Shipping', '99%+ Purity', 'Weekly Payouts'].map(name => (
             <div className="trust-logo" key={name}>{name}</div>
           ))}
         </div>
